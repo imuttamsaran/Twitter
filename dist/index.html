@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <script src="https://kit.fontawesome.com/82f22d047e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Twitter Clone App</title>
+  <script type="module" crossorigin src="/assets/index.1714c97f.js"></script>
+  <link rel="stylesheet" href="/assets/index.b0bf5ac5.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  
+  <script>
+    function myFunction() {
+      var element = document.getElementById("love");
+      element.classList.toggle("lite");
+    }
+    function myFunction2() {
+      var element = document.getElementById("love2");
+      element.classList.toggle("lite");
+    }
+    function myFunction3() {
+      var element = document.getElementById("love3");
+      element.classList.toggle("lite");
+    }
+    function myFunction4() {
+      var element = document.getElementById("love4");
+      element.classList.toggle("lite");
+    }
+    function myFunction5() {
+      var element = document.getElementById("love5");
+      element.classList.toggle("lite");
+    }
+    function myFunction6() {
+      var element = document.getElementById("love6");
+      element.classList.toggle("lite");
+    }
+    function myFunction7() {
+      var element = document.getElementById("love7");
+      element.classList.toggle("lite");
+    }
+    function myFunction8() {
+      var element = document.getElementById("love8");
+      element.classList.toggle("lite");
+    }
+    function myFunc() {
+      var element = document.getElementById("nFollow");
+      element.style.border = "2px solid #ffffff";
+      element.style.backgroundColor = "transparent";
+      element.style.color = "#ffffff";
+      element.innerHTML = "Following";
+    }
+    function myFunc1() {
+      var element = document.getElementById("nFollow1");
+      element.style.border = "2px solid #ffffff";
+      element.style.backgroundColor = "transparent";
+      element.style.color = "#ffffff";
+      element.innerHTML = "Following";
+    }
+    function myFunc2() {
+      var element = document.getElementById("nFollow2");
+      element.style.border = "2px solid #ffffff";
+      element.style.backgroundColor = "transparent";
+      element.style.color = "#ffffff";
+      element.innerHTML = "Following";
+    }
+    function openNav() {
+      document.getElementById("myNav").style.width = "80%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    var btnContainer = document.getElementById("myDIV");
+    var btns = btnContainer.getElementsByClassName("link");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+</body>
+
+</html>
